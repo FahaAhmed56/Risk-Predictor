@@ -1,0 +1,27 @@
+{
+  "dataset": "SYNTHETIC: fabricated labels; educational demo only",
+  "train_rows": 2000,
+  "test_rows": 500,
+  "accuracy": 0.608,
+  "precision": 0.6433,
+  "recall": 0.6844,
+  "f1": 0.6632,
+  "roc_auc": 0.6427,
+  "confusion_matrix": [
+    [
+      111,
+      107
+    ],
+    [
+      89,
+      193
+    ]
+  ],
+  "feature_importance": {
+    "attendance_pct": 0.2266,
+    "study_hours_week": 0.1609,
+    "previous_score": 0.2649,
+    "assignments_completed_pct": 0.2069,
+    "sleep_hours": 0.1408
+  }
+}
